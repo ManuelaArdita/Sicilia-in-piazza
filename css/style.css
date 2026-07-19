@@ -228,7 +228,7 @@ body {
   .hero-title {
     font-size: 28px;
   }
-  .hero img {
+  img {
     max-width: 100%;
     display: block;
   }
