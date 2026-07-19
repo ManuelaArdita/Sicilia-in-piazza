@@ -229,6 +229,7 @@ body {
     font-size: 28px;
   }
   img {
+    max-width: 100%;
     display: block;
   }
 }
