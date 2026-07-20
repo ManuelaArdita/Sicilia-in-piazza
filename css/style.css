@@ -146,6 +146,7 @@ header nav ul {
 
 .card_txt {
   padding: 20px;
+  display: block;
 }
 
 .posizione {
@@ -253,7 +254,7 @@ header nav ul {
 }
 
 /* RESPONSIVE */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   html {
     box-sizing: border-box;
   }
@@ -293,6 +294,7 @@ header nav ul {
   }
   .card_img, .card_img2 {
     height: 250px;
+    display: block;
   }
   .content {
     margin: 30px 10px;

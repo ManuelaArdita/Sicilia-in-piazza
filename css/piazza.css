@@ -192,4 +192,7 @@ body {
   .hero-title {
     font-size: 28px;
   }
+  img {
+    display: block;
+  }
 }

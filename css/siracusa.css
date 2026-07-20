@@ -1,0 +1,204 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #f89a4b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo a{
+  color: #222;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+
+/* HERO */
+.hero {
+  max-width: 1700px;
+  margin-top: 60px;
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+
+.hero-title {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+/* CONTENUTO PRINCIPALE */
+.content {
+  display: grid;
+  grid-template-columns: 1fr 480px;
+  gap: 90px;
+  padding: 100px 100px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.text p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  max-width: 610px;
+}
+
+.side-image img {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+h3 {
+    font-size: 24px;
+    margin-left: 210px;
+    margin-bottom: 32px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  display: block;
+  max-width: 335px;
+  margin-left: 210px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #222;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+    display: block;
+}
+
+.posizione {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.map{
+  max-width: 20px;
+  max-height: 20px;
+  margin-top: 5px;
+}
+
+.place {
+  display: block;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+h4 {
+   font-size: 32px;
+}
+
+/* FOOTER */
+.footer {
+  background: #efc156;
+  padding: 30px 20px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.footer-logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.footer-logo a {
+  text-decoration: none;
+  color: #222;
+}
+
+.back-top {
+  display: inline-block;
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+}
+
+/* RESPONSIVE FIX */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 28px;
+  }
+  img {
+    display: block;
+  }
+}
