@@ -4,125 +4,135 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista Piazze - Sicilia in piazza</title>
-  <link rel="stylesheet" href="css/piazza.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!-- NAVBAR -->
-<header class="navbar">
-  <h1 class="logo"><a href="index.html">SICILIA IN PIAZZA</a></h1>
-  <nav class="nav-links">
-    <a href="piazze.html">Piazze</a>
-    <a href="città.html">Città</a>
-    <a href="info.html">Info</a>
-  </nav>
+<header>
+  <div>
+    <p><a href="index.html">SICILIA IN PIAZZA</a></p>
+    <nav>
+      <ul>
+        <li><a href="piazze.html">Piazze</a></li>
+        <li><a href="città.html">Città</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <!-- HERO -->
 <section class="hero">
-  <h2 class="hero-title">Sicilia in piazza</h2>
-  <img src="img/sicilia.jpg" alt="sicilia">
+  <div class="hero_img">
+    <img src="img/sicilia.jpg" alt="sicilia">
+  </div>
+  <div class="hero_txt">
+    <h1 >Sicilia in piazza</h1>
+  </div>
 </section>
 
 <main>
 
   <!-- TITOLO -->
-  <section class="content-section">
-    <h3 class="section-title">Lista di tutte le piazze</h3>
-    <div class="divider"></div>
+  <section class="piazze_l">
+    <div class="section_txt">
+      <h3>Lista di tutte le piazze</h3>
+    </div>
+    <div class="linea"></div>
 
-    <div class="card-grid">
+    <div class="card_grid3">
 
-      <a href="dettaglio-catania.html">
-        <article class="card">
-          <img src="img/catania/catania-piccola.png" alt="">
-          <div class="card-body">
-            <h4>Piazza del Duomo</h4>
-            <div class="posizione">
-              <img src="img/fi-sr-map-marker.png" class="map">
-              <span class="place">Catania</span>
-            </div>
+      <div class="card_item3">
+        <a href="dettaglio-catania.html">
+          <img class="card_img3" src="img/catania/catania-piccola.png" alt="">
+          <div class="card_txt3">
+            <h3>Piazza del Duomo</h3>
           </div>
-        </article>
-      </a>
-
-      <a href="dettaglio-palermo.html">
-        <article class="card">
-          <img src="img/palermo/palermo-piccola.jpg" alt="">
-          <div class="card-body">
-            <h4>Piazza Pretoria</h4>
-            <div class="posizione">
-              <img src="img/fi-sr-map-marker.png" class="map">
-              <span class="place">Palermo</span>
-            </div>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Catania</p>
           </div>
-        </article>
-      </a>
+        </a>
+      </div>
 
-      <a href="dettaglio-messina.html">
-        <article class="card">
-          <img src="img/messina/messina-piccola.jpg" alt="">
-          <div class="card-body">        
-            <h4>Piazza Unità d’Italia</h4>
-            <div class="posizione">
-              <img src="img/fi-sr-map-marker.png" class="map">
-              <span class="place">Messina</span>
-            </div>
+      <div class="card_item3">
+        <a href="dettaglio-palermo.html">
+          <img class="card_img3" src="img/palermo/palermo-piccola.jpg" alt="">
+          <div class="card_txt3">
+            <h3>Piazza Pretoria</h3>
           </div>
-        </article>
-      </a>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Palermo</p>
+          </div>
+        </a>
+      </div>
 
-      <a href="dettaglio-siracusa.html">
-        <article class="card">
-          <img src="img/siracusa/siracusa-piccola.jpg" alt="">
-          <div class="card-body">
-            <h4>Piazza Duomo</h4>
-            <div class="posizione">
-              <img src="img/fi-sr-map-marker.png" class="map">
-              <span class="place">Siracusa</span>
-            </div>
+      <div class="card_item3">
+        <a href="dettaglio-messina.html">
+          <img class="card_img3" src="img/messina/messina-piccola.jpg" alt="">
+          <div class="card_txt3">        
+            <hh34>Piazza Unità d’Italia</h3>
           </div>
-        </article>
-      </a>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Messina</p>
+          </div>
+        </a>
+      </div>
 
-      <a href="dettaglio-trapani.html">
-        <article class="card">
-          <img src="img/trapani/trapani-piccola.jpg" alt="">
-          <div class="card-body">
-            <h4>Piazza V. Emanuele</h4>
-            <div class="posizione">
-              <img src="img/fi-sr-map-marker.png" class="map">
-              <span class="place">Trapani</span>
-            </div>
+      <div class="card_item3">
+        <a href="dettaglio-siracusa.html">
+          <img class="card_img3" src="img/siracusa/siracusa-piccola.jpg" alt="">
+          <div class="card_txt3">
+            <h3>Piazza Duomo</h3>
           </div>
-        </article>
-      </a>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Siracusa</p>
+          </div>
+        </a>
+      </div>
 
-      <a href="dettaglio-ragusa.html">
-        <article class="card">
-          <img src="img/ragusa/ragusa-piccola.jpg" alt="">
-          <div class="card-body">
-            <h4>Piazza del Duomo</h4>
-            <div class="posizione">
-              <img src="img/fi-sr-map-marker.png" class="map">
-              <span class="place">Ragusa</span>
-            </div>
+      <div class="card_item3">
+        <a href="dettaglio-trapani.html">
+          <img class="card_img3" src="img/trapani/trapani-piccola.jpg" alt="">
+          <div class="card_txt3">
+            <h3>Piazza V. Emanuele</h3>
           </div>
-        </article>
-      </a>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Trapani</p>
+          </div>
+        </a>
+      </div>
 
-      <a href="dettaglio-caltanissetta.html">
-        <article class="card">
-          <img src="img/caltanissetta/caltanissetta-piccola.jpg" alt="">
-          <div class="card-body">
-            <h4>Piazza Garibaldi</h4>
-            <div class="posizione">
-              <img src="img/fi-sr-map-marker.png" class="map">
-              <span class="place">Caltanissetta</span>
-            </div>
+      <div class="card_item3">
+        <a href="dettaglio-ragusa.html">
+          <img class="card_img3" src="img/ragusa/ragusa-piccola.jpg" alt="">
+          <div class="card_txt3">
+            <h3>Piazza del Duomo</h3>
           </div>
-        </article>
-      </a>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Ragusa</p>
+          </div>
+         </a>
+        </div>
+
+      <div class="card_item3">
+        <a href="dettaglio-caltanissetta.html">
+          <img class="card_img3" src="img/caltanissetta/caltanissetta-piccola.jpg" alt="">
+          <div class="card_txt3">
+            <h3>Piazza Garibaldi</h3>
+          </div>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Caltanissetta</p>
+          </div>
+        </a>
+      </div>
 
     </div>
   </section>
@@ -131,11 +141,11 @@
 
 <!-- FOOTER -->
 <footer class="footer">
-  <h2 class="footer-logo"><a href="index.html">SICILIA IN PIAZZA</a></h2>
+  <h2 class="footer_txt"><a href="index.html">SICILIA IN PIAZZA</a></h2>
 
-  <a href="#" class="back-top">Torna su</a>
+  <a href="#" class="back_top">Torna su</a>
 
-  <nav class="footer-nav">
+  <nav class="footer_nav">
     <a href="piazze.html">Piazze</a>
     <a href="città.html">Città</a>
     <a href="info.html">Info</a>

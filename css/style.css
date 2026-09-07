@@ -218,6 +218,12 @@ header nav ul {
   padding-right: 12px;
 }
 
+/* LISTA PIAZZE */
+.piazze_l {
+  margin: 100px auto;
+justify-content: center;
+}
+
 /* FOOTER */
 .footer {
   background: #efc156;
