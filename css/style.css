@@ -325,6 +325,32 @@ header nav ul {
   margin-bottom: 24px;
 }
 
+/*ABOUT*/
+.info-container {
+  max-width: 1100px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.info-container p {
+  margin-bottom: 20px;
+}
+
+.info-container a {
+  color: #222;
+}
+
+.sources {
+  margin-top: 6px;
+  list-style: none;
+}
+
+.sources li {
+  margin: 6px 0;
+  word-break: break-word;
+  font-size: 15px;
+}
+
 /* FOOTER */
 .footer {
   background: #efc156;
