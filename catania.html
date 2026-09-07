@@ -4,68 +4,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catania</title>
-  <link rel="stylesheet" href="css/catania.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <!-- NAVBAR -->
-  <header class="navbar">
-    <h1 class="logo"><a href="index.html">SICILIA IN PIAZZA</a></h1>
-    <nav class="nav-links">
-      <a href="piazze.html">Piazze</a>
-      <a href="città.html">Città</a>
-      <a href="info.html">Info</a>
+  <header>
+  <div>
+    <p><a href="index.html">SICILIA IN PIAZZA</a></p>
+    <nav>
+      <ul>
+        <li><a href="piazze.html">Piazze</a></li>
+        <li><a href="città.html">Città</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
     </nav>
-  </header>
+  </div>
+</header>
 
   <!-- HERO -->
   <section class="hero">
-      <div class="hero-title">
-          <h2>Catania</h2>
-      </div>
-      <img src="img/catania/catania-hero.png" alt="duomo-big">
-  </section>
+  <div class="hero_img">
+    <img src="img/catania/catania-hero.png" alt="Catania">
+  </div>
+  <div class="hero_txt">
+    <h1>Catania</h1>
+  </div>
+</section>
 
   <main>
 
     <!-- TESTO + IMMAGINE -->
-    <section class="content">
-      <div class="text">
-         <p><strong>Catania</strong> è un'antica città portuale sulla costa orientale della Sicilia. È situata ai piedi dell'Etna, un vulcano attivo con sentieri che arrivano fino alla sua sommità. L'ampia piazza centrale della città, <strong>piazza del Duomo</strong>, è caratterizzata dalla pittoresca statua della Fontana dell'Elefante e dalla Cattedrale, riccamente decorata. Nell'angolo sudoccidentale della piazza, La Pescheria, il mercato del pesce che si tiene nei giorni feriali, è un vociante spettacolo circondato da ristoranti che servono pesce.</p>
+    <section class="dettaglio">
+      <div class="dettaglio_txt">
+        <p><strong>Catania</strong> è un'antica città portuale sulla costa orientale della Sicilia. È situata ai piedi dell'Etna, un vulcano attivo con sentieri che arrivano fino alla sua sommità. L'ampia piazza centrale della città, <strong>piazza del Duomo</strong>, è caratterizzata dalla pittoresca statua della Fontana dell'Elefante e dalla Cattedrale, riccamente decorata. Nell'angolo sudoccidentale della piazza, La Pescheria, il mercato del pesce che si tiene nei giorni feriali, è un vociante spettacolo circondato da ristoranti che servono pesce.</p>
      
-         <p>Il barocco del suo centro storico è stato dichiarato dall'UNESCO Patrimonio dell'umanità, assieme a quello di sette comuni del Val di Noto (Caltagirone, Militello in Val di Catania, Modica, Noto, Palazzolo Acreide, Ragusa e Scicli), nel 2002.</p>
+        <p>Il barocco del suo centro storico è stato dichiarato dall'UNESCO Patrimonio dell'umanità, assieme a quello di sette comuni del Val di Noto (Caltagirone, Militello in Val di Catania, Modica, Noto, Palazzolo Acreide, Ragusa e Scicli), nel 2002.</p>
       </div>
-   
-
-      <div class="side-image">
-         <img src="img/catania/catania-catania.jpg" alt="catania">
+      <div class="side_img">
+        <img src="img/catania/catania-catania.jpg" alt="catania">
       </div>
     </section>
-   <h3>Piazze in provincia di Catania</h3>
-   <article class="card">
-        <a href="dettaglio-catania.html">
-            <img src="img/catania/catania-piccola.png" alt="">
-            <div class="card-body">
-              <h4>Piazza del Duomo</h4>
-              <div class="posizione">
-                <img src="img/fi-sr-map-marker.png" class="map">
-                <span class="place">Catania</span>
-              </div>
-           </div>
-        </a>
-    </article>
-</main>
+
+   <section class="liste">
+    <div class="section_txt2">
+      <h2>Piazze in provincia di Catania</h2>
+    </div>
+   
+
+   <div class="card_grid3">
+    <div class="card_item3">
+      <a href="dettaglio-catania.html">
+        <img class="card_img3" src="img/catania/catania-piccola.png" alt="">
+        <div class="card_txt3">
+          <h3>Piazza del Duomo</h3>
+          <div class="posizione">
+            <img src="img/fi-sr-map-marker.png" class="map">
+            <p class="place">Catania</p>
+          </div>
+        </div>
+      </a>
+    </div>
+   </div>
+  </section>
+ </main>
 
 <!-- FOOTER -->
 <footer class="footer">
-  <h2 class="footer-logo"><a href="index.html">SICILIA IN PIAZZA</a></h2>
-  <a href="#" class="back-top">Torna su</a>
-  <nav class="footer-nav">
-    <a href="piazze.html">Piazze</a>
-    <a href="città.html">Città</a>
-    <a href="info.html">Info</a>
-  </nav>
-</footer>
+    <h2 class="footer-txt"><a href="index.html">SICILIA IN PIAZZA</a></h2>
+    <a href="#" class="back-top">Torna su</a>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="piazze.html">Piazze</a></li>
+        <li><a href="città.html">Città</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </footer>
 
 </body>
 </html>

@@ -80,7 +80,7 @@ body {
 }
 
 /* CONTENUTO PRINCIPALE */
-.content {
+.piazza_d {
   display: grid;
   grid-template-columns: 1fr 480px;
   gap: 90px;
@@ -89,13 +89,13 @@ body {
   margin: auto;
 }
 
-.text p {
+.dettaglio_txt p {
   margin-bottom: 20px;
   line-height: 1.6;
   max-width: 610px;
 }
 
-.side-image img {
+.side_img img {
   width: 100%;
   height: 100%;
   max-width: 500px;
@@ -105,13 +105,13 @@ body {
 }
 
 /* IMMAGINE GRANDE */
-.full-image {
+.full_img {
   padding: 100px 70px;
   max-width: 1235px;
   margin: auto;
 }
 
-.full-image img {
+.full_img img {
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
